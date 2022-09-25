@@ -296,7 +296,7 @@ a h4:hover {
   top: 0;
   left: 0;
   background: #1a1a37;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .outline-0 {
@@ -725,6 +725,12 @@ link:focus,
   display: inline-block;
 }
 
+.feature-icon-sm {
+  font-size: 35px;
+  color: #FF0000;
+  display: inline-block;
+  cursor: pointer;
+}
 .feature-blocks {
   margin-top: -100px;
   padding-left: 70px;
@@ -777,7 +783,9 @@ link:focus,
 /* /course */
 /* success story */
 .success-video {
-  min-height: 300px;
+  min-height: 30px;
+  min-width: 30px;
+
 }
 .success-video .play-btn {
   position: absolute;
@@ -793,14 +801,17 @@ link:focus,
 }
 
 .play-btn {
-  display: inline-block;
-  height: 80px;
-  width: 80px;
+  display: flex;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
-  background: #ffbc3b;
+  background: #FF0000;
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+
 }
 .play-btn i {
   line-height: 80px;
@@ -825,7 +836,7 @@ link:focus,
   height: 80%;
   width: 80%;
   transform: translate(-50%, -50%);
-  background: #ffbc3b;
+  background: #FF0000;
   border-radius: 50%;
   top: 50%;
   left: 50%;
