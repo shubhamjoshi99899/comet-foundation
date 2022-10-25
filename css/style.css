@@ -499,6 +499,13 @@ textarea.form-control {
   }
 }
 
+.logo-image{
+  vertical-align: middle;
+  border: 0;
+  width: 170px;
+  height: 45px;
+}
+
 .nav-bg {
   background-color: #1a1a37;
 }
