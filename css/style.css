@@ -164,7 +164,8 @@ h6,
 
 .btn-primary {
   color: #fff;
-  background-color: #ffbc3b;
+  background-color: #3ba6ff;
+  border-radius: 20px;
 }
 .btn-primary::before {
   background-color: #fff;
@@ -507,7 +508,7 @@ textarea.form-control {
 }
 
 .navigation {
-  background: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
+  background: linear-gradient(to right, transparent 50%, #ffba3b00 50%);
   transition: 0.2s ease;
 }
 @media (max-width: 991px) {
@@ -528,7 +529,7 @@ textarea.form-control {
 
 .navbar-nav {
   padding-left: 50px;
-  background: #ffbc3b;
+  background: #ffba3b00;
 }
 @media (max-width: 991px) {
   .navbar-nav {
@@ -542,6 +543,8 @@ textarea.form-control {
   border: 0;
   width: 170px;
   height: 45px;
+  margin-left: 72px;
+  margin-top: -39px;
 }
 
 .nav-bg {
@@ -781,7 +784,7 @@ link:focus,
   cursor: pointer;
 }
 .feature-blocks {
-  margin-top: -100px;
+  /* margin-top: -100px; */
   padding-left: 70px;
   padding-top: 80px;
   padding-right: 30%;
