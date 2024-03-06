@@ -1001,7 +1001,6 @@ link:focus,
 #benefits_HTML {
   float: right;
   margin-top: 230px;
-  /* margin-left: 50px; */
 }
 
 #mentorship {
@@ -1014,4 +1013,45 @@ link:focus,
   margin-top: 100px;
 }
 
+/* cycle 5 changes */
+#form {
+  max-width: 1600px;
+  margin-left: 473px;
+}
+
+#COMETRegistrationForm {
+  margin-left: 198px;
+}
+#formreset {
+  margin-left: 636px;
+}
+#formimage {
+  height: 216px;
+  margin-left: 537px;
+  margin-bottom: -40px;
+}
+
+#cometchangeleaders {
+  flex-wrap: nowrap;
+}
+
+#comettechinicalheads {
+  flex-wrap: nowrap;
+}
+
+#leader {
+  margin-left: -205px;
+}
+
+#head {
+  margin-left: -187px;
+}
+
+#teachimg {
+  width: 50%;
+}
+
+#softskill {
+  margin-left: 100px;
+}
 /*# sourceMappingURL=style.css.map */
