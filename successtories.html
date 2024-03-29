@@ -13,7 +13,7 @@
   <!-- Basic Page Needs
 	================================================== -->
   <meta charset="utf-8">
-  <title>Comet | Notice</title>
+  <title>Comet | Courses</title>
 
   <!-- Mobile Specific Metas
 	================================================== -->
@@ -43,6 +43,21 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+  <style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        
+    }
+    th, td {
+        border: 2px solid black;
+        padding: 8px;
+        text-align: left;
+        text-align: center;
+    }
+</style>
+
 
 </head>
 
@@ -75,7 +90,7 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/Logo-22.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.html" style="margin-left: -70px;"><img class="logo-image" src="images/Logo-22.png" alt="logo"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -89,24 +104,17 @@
             <li class="nav-item @@about">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item @@courses">
+            <li class="nav-item @@contact">
               <a class="nav-link" href="courses.html">Trainings</a>
             </li>
-
-            <li class="nav-item  @@events">
+            <li class="nav-item @@events">
               <a class="nav-link" href="events.html">EVENTS</a>
             </li>
-
-
-            <!-- <li class="nav-item @@courses">
-              <a class="nav-link" href="courses.html">COURSES</a>
-            </li> -->
-
             <!-- <li class="nav-item @@blog">
               <a class="nav-link" href="blog.html">BLOG</a>
             </li> -->
-              <!-- New menu name-"Accomplishments" added -->
-              <li class="nav-item dropdown view">
+               <!-- New menu name-"Accomplishments" added -->
+               <li class="nav-item active dropdown view">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   Accomplishments
@@ -118,11 +126,11 @@
                 </ul>
               </li>
               <!-- New section  -->
-            <!-- <li class="nav-item dropdown view"> -->
-              <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <!-- <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pages
-              </a> -->
-              <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="teacher.html">Teacher</a></li>
                 <li><a class="dropdown-item" href="founder.html">Our Founder</a></li>
                 <li><a class="dropdown-item" href="notice.html">Notice</a></li>
@@ -148,43 +156,39 @@
             <li class="nav-item @@contact">
               <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
-            
+            <!-- New menu name-"team" added -->
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Team
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="founder.html">Our Founder</a></li>
+                <li><a class="dropdown-item" href="changeleaders.html">Change Leaders</a></li>
+                <li><a class="dropdown-item" href="technicalheadsandhearts.html">Technical heads & <br> hearts</a></li>
+                <li><a class="dropdown-item" href="Alumni.html">COMET Alumni</a></li>
+              </ul>
+            </li>
+             <!-- New Menu name - "Programs | concepts"  added-->
+             <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Programs | concepts
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="certificate.html">Professional Certifications</a></li>
+                <li><a class="dropdown-item" href="studycentre.html">COMET study centre</a></li>
+                <li><a class="dropdown-item" href="annualday.html"> COMET annual day</a></li>
+                <li><a class="dropdown-item" href="adoptaschool.html">COMET Adopt-a-school</a></li>
+                <li><a class="dropdown-item" href="mentorship.html">COMET Mentorship</a></li>
+                <li><a class="dropdown-item" href="CareerPlanTracker.html">Career planning tracker</a></li>
+                <li><a class="dropdown-item" href="donation.html">Donation</a></li>
+                <li><a class="dropdown-item" href="career.html">Career-counselling and development</a></li>
+                <li><a class="dropdown-item" href="computerlab.html">COMET Computer lab</a></li>
+                <li><a class="dropdown-item" href="careerfest.html">COMET Career fest </a></li>
 
- <!-- team  -->
- <li class="nav-item dropdown view">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-    aria-haspopup="true" aria-expanded="false">
-    Team
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <li><a class="dropdown-item" href="founder.html">Our Founder</a></li>
-    <li><a class="dropdown-item" href="changeleaders.html">Change Leaders</a></li>
-    <li><a class="dropdown-item" href="technicalheadsandhearts.html">Technical heads & <br> hearts</a></li>
-    <li><a class="dropdown-item" href="Alumni.html">COMET Alumni</a></li>
-  </ul>
-</li>
-<!-- New Menu name - "Programs | concepts"  added--> 
-<li class="nav-item  active dropdown view">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-    aria-haspopup="true" aria-expanded="false">
-    Programs | concepts
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <li><a class="dropdown-item" href="certificate.html">Professional Certifications</a></li>
-    <li><a class="dropdown-item" href="studycentre.html">COMET study centre</a></li>
-    <li><a class="dropdown-item" href="annualday.html"> COMET annual day</a></li>
-    <li><a class="dropdown-item" href="CAS.html">COMET Adopt-a-school</a></li>
-    <li><a class="dropdown-item" href="mentorship.html">COMET Mentorship</a></li>
-    <li><a class="dropdown-item" href="careerplan.html">Career planning tracker</a></li>
-    <li><a class="dropdown-item" href="donation.html">Donation</a></li>
-    <li><a class="dropdown-item" href="career.html">Career-counselling and development</a></li>
-    <li><a class="dropdown-item" href="computerlab.html">COMET Computer lab</a></li>
-    <li><a class="dropdown-item" href="careerfest.html">COMET Career fest </a></li>
-
-  </ul>
-</li>
-
-
+              </ul>
+            </li>
           </ul>
         </div>
       </nav>
@@ -263,7 +267,8 @@
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb mb-2">
           <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html">Home</a></li>
-          <li class="list-inline-item text-white h3 font-secondary nasted">Events</li>
+          <li class="list-inline-item text-white h3 font-secondary nasted"> Comet Success Stories</li>
+
         </ul>
         <p class="text-lighten mb-0">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>
       </div>
@@ -271,189 +276,70 @@
   </div>
   <a href="donation.html"   class=" btn btn-primary " data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7" style="margin-left: 390px; "><b>Contribute / Donate Us</b>  </a>
 </section>
-
-
 <!-- /page title -->
 
 <!-- courses -->
-<!-- <section class="section">
+<section class="section">
   <div class="container">
+    <h2 class="mb-0 text-nowrap mr-3">Comet Success Stories</h2>
+    <br>
+    <!-- course list -->
+<div class="row justify-content-center">
+ <!-- courses -->
 
-  <div class="row">
-    <div class="col-12">
-      <div class="d-flex align-items-center section-title justify-content-between">
-        <h2 class="mb-0 text-nowrap mr-3">Events</h2>
-        <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-        <div>
-          <a href="events.html" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">see all</a>
+ <table>
+  <tr>
+      <th> Name</th>
+      <th> Comet Success Stories</th>
+  </tr>
+  <tr>
+    <td>Kiran Bhatt</td>
+    <td> <a href="https://www.youtube.com/watch?v=Qjjbleqfxk8&list=PL3rSdtMRPl3FTEbngVSuxgZUY8bG7HRNx&index=4">https://www.youtube.com/Kiran Bhatt</a> </td>  </tr>
+  </tr>
+  <tr>
+    <td>Anil Kapri</td>
+    <td> <a href="https://www.youtube.com/watch?v=LeVTtE1hRB0&list=PL3rSdtMRPl3FTEbngVSuxgZUY8bG7HRNx&index=10">https://www.youtube.com/Anil Kapri</a> </td>
+   
+  </tr>
+  <tr>
+    <td>Nikita Bhatt</td>
+    <td> <a href="https://www.youtube.com/watch?v=VvB93tjFJ_Y&list=PL3rSdtMRPl3FTEbngVSuxgZUY8bG7HRNx&index=5">https://www.youtube.com/Nikita Bhatt</a> </td>   
+
+  <tr>
+      <td>Priya Bisht</td>
+      <td> <a href="https://www.youtube.com/watch?v=oWy1qyByM5I&list=PL3rSdtMRPl3FTEbngVSuxgZUY8bG7HRNx&index=7">https://www.youtube.com/Priya Bisht</a> </td>  </tr>
+  <tr>
+    <td>Nihal Bhatt</td>
+    <td> <a href="https://www.youtube.com/watch?v=yM-yTUvuzRA&list=PL3rSdtMRPl3FTEbngVSuxgZUY8bG7HRNx&index=6">https://www.youtube.com/Nihal Bhatt</a> </td>  </tr>
+</table>
+
+
+<!-- /courses -->
+
+
+<!-- footer -->
+<footer>
+  <br><br>
+  <span style="text-align: center; "> <a href="https://www.youtube.com/playlist?list=PL3rSdtMRPl3FTEbngVSuxgZUY8bG7HRNx">    <strong>  More… </strong></a>  </span>
+  <br><br>
+
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
-    <div class="row"> -->
-      <!-- event -->
-  <!-- <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-    <div class="card border-0 rounded-0 hover-shadow">
-      <div class="card-img position-relative">
-        <img class="card-img-top rounded-0" src="images/events/event-1.jpg" alt="event thumb">
-        <div class="card-date"><span>30</span><br>September</div>
-      </div>
-      <div class="card-body"> -->
-        <!-- location -->
-        <!-- <p><i class="ti-location-pin text-primary mr-2"></i>Comet Study center, Hyderabad</p>
-        <a href="event-single.html"><h4 class="card-title">Workshop on Artificial Intelligence, with teaching staff and students.</h4></a>
-      </div>
-    </div>
-  </div> -->
-  <!-- event -->
-  <!-- <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-    <div class="card border-0 rounded-0 hover-shadow">
-      <div class="card-img position-relative">
-        <img class="card-img-top rounded-0" src="images/events/dussehra.webp" alt="event thumb">
-        <div class="card-date"><span>05</span><br>October</div>
-      </div>
-      <div class="card-body"> -->
-        <!-- location -->
-        <!-- <p><i class="ti-location-pin text-primary mr-2"></i>Lake Ridges, Hyderabad </p>
-        <a href="event-single.html"><h4 class="card-title"> Dussehra Celebration, with all the comet staff and students.</h4></a>
-      </div>
-    </div>
-  </div> -->
-  <!-- event -->
-  <!-- <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-    <div class="card border-0 rounded-0 hover-shadow">
-      <div class="card-img position-relative">
-        <img class="card-img-top rounded-0" src="images/events/deepawali.jpg" alt="event thumb">
-        <div class="card-date"><span>23</span><br>October</div>
-      </div>
-      <div class="card-body"> -->
-        <!-- location -->
-        <!-- <p><i class="ti-location-pin text-primary mr-2"></i>Lake Ridges, Hyderabad</p>
-        <a href="event-single.html"><h4 class="card-title">Deepawali Celebration, with all the comet staff and students.</h4></a>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-</section> -->
-<!-- /courses -->
-<br>
-<!-- courses -->
-
-<section style="padding-top: 0 !important;" class="section">
-  <div class="container">
-
-  <div class="row">
-    <div class="col-12">
-      <div class="d-flex align-items-center section-title justify-content-between">
-        <h2 class="mb-0 text-nowrap mr-3">COMET career counselling services</h2>
-        <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-      </div>
-    </div>
-  </div>
-  <img style="float: right;"  height="150px" width="150px" src="/images/careerpath.png" alt="careerpath">
-
-<P>
-  COMET career counselling services
-The traditional education system in our country does not consider career development aspect in its curriculum. Hence, career counselling services are associated with expensive schools in major cities only. As a result, career counselling services are inaccessible to more than 90% of students who study in remote parts of the country. This prevents students from achieving their best. 
-</P>
-<p>
-  COMET is working to close this known gap by helping such schools and students with career counselling services. Our career counselling services for COMET preferred schools are conducted as per the following plan –
-  <p>
-
-    
-
-
-    <table class="careertable">
-      <tr>
-          <th> Session#</th>
-          <th> Session title</th>
-          <th>Target audience</th>
-          <th>Session link </th>
-      </tr>
-      <tr>
-          <td>Session 1</td>
-          <td>Career counselling session for all</td>
-          <td>All students from class 7-12</td>
-          <td> <a href="https://drive.google.com/file/d/1De8_E2kzH_LrssSD3rMVi1npfQFXa05P/view?usp=drive_link ">https://drive.google.com/file/d/1De8_E2kzH_LrssSD3rMVi1npfQFXa05P/view?usp=drive_link</a> </td>
-      </tr>
-
-
-      <tr>
-        <td>Session 2</td>
-        <td>COMET Services for class 11 AND 12 pass-out Students</td>
-        <td>Class 11 and 12 students</td>
-        <td> <a href="https://drive.google.com/file/d/1Am5tmM1neEUHmbdESZr4HcJPO9TYrNCr/view?usp=drive_link ">https://drive.google.com/file/d/1Am5tmM1neEUHmbdESZr4HcJPO9TYrNCr/view?usp=drive_link </a> </td>
-    </tr>
-
-
-    <tr>
-      <td>Session 3 </td>
-      <td>Career counselling – science stream</td>
-      <td>All students from class 7-10 and science stream students from class 11 and 12</td>
-      <td> <a href="https://drive.google.com/file/d/12kb8Gmok-lhhIzbECB55KfkKbLdzQPih/view?usp=drive_link ">https://drive.google.com/file/d/12kb8Gmok-lhhIzbECB55KfkKbLdzQPih/view?usp=drive_link </a> </td>
-  </tr>
-
-
-  <tr>
-    <td>Session 4</td>
-    <td>Career counselling – commerce stream</td>
-    <td>All students from class 7-10 and Art stream students from class 11 and 12</td>
-    <td> <a href="https://drive.google.com/file/d/1CN4NdvSL_-6qwioU_ZJf6IAZrnXljzXP/view?usp=drive_link ">https://drive.google.com/file/d/1CN4NdvSL_-6qwioU_ZJf6IAZrnXljzXP/view?usp=drive_link </a> </td>
-</tr>
-
-
-<tr>
-  <td>Session 5</td>
-  <td>Career counselling – Art stream</td>
-  <td>All students from class 7-10 and Art stream students from class 11 and 12</td>
-  <td> <a href="https://drive.google.com/file/d/1mioSv6fTcB1MtKOJSKrHVZRxfEX1wKH_/view?usp=drive_link ">https://drive.google.com/file/d/1mioSv6fTcB1MtKOJSKrHVZRxfEX1wKH_/view?usp=drive_link </a> </td>
-</tr>
-
-
-<tr>
-  <td>Session 6</td>
-  <td>Career counselling - Govt jobs</td>
-  <td>All students from class 7-12</td>
-  <td> <a href="https://drive.google.com/file/d/16Fhrkp7pfr7t5e8LZhUPduPlw2td2aiz/view?usp=drive_link ">https://drive.google.com/file/d/16Fhrkp7pfr7t5e8LZhUPduPlw2td2aiz/view?usp=drive_link </a> </td>
-</tr>
-
-
-<tr>
-  <td>Session 7</td>
-  <td>Career counselling - eneterpreneurship options</td>
-  <td>All students from class 7-12</td>
-  <td> <a href="https://drive.google.com/file/d/12yOofh3iYTiNysYjzW0rIaSnB7NuAj96/view?usp=drive_link ">https://drive.google.com/file/d/12yOofh3iYTiNysYjzW0rIaSnB7NuAj96/view?usp=drive_link </a> </td>
-</tr>
-
-
-<tr>
-  <td>Session 8</td>
-  <td>Career counselling - business options Uttarakhand</td>
-  <td>All students from class 7-12</td>
-  <td> <a href="https://drive.google.com/file/d/1TNx7dGiLwonU92f7J5qWZmYotd_yUHn5/view?usp=drive_link ">https://drive.google.com/file/d/1TNx7dGiLwonU92f7J5qWZmYotd_yUHn5/view?usp=drive_link </a> </td>
-</tr>
-
-
-    </table>
-<br>
-
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFdTF_Zfui1KZywMKKMUQw-Yhk0jOHjR3n2ck4C8Xujr1EIw/viewform "> <button type="submit" value="send" class="btn btn-primary ml-4">Contact Us</button></a>
-    <a href="https://forms.gle/ExP1J4g7DyFK5mcCA"> <button type="submit" value="send" class="btn btn-primary ml-4">Submit Your Query</button></a> 
-
-</div>
-    </div>
-  </div>
-</section>
-<!-- /courses -->
-
-
- <!-- footer -->
- <footer>
-
-
-  <!-- footer content -->
+     <!-- footer content -->
   <div class="footer bg-footer section border-bottom">
     <div class="container">
       <div class="row">
@@ -616,6 +502,3 @@ The traditional education system in our country does not consider career develop
 <script src="js/script.js"></script>
 </body>
 </html>
-
-
-

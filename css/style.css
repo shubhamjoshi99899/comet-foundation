@@ -301,6 +301,7 @@ a h4:hover {
 .section {
   padding-top: 90px;
   padding-bottom: 90px;
+  padding-left: 144px;
 }
 .section-sm {
   padding-top: 40px;
@@ -363,7 +364,7 @@ a h4:hover {
 }
 
 .text-color {
-  color: #5c5c77;
+  color: #fff;
 }
 
 .text-light {
@@ -936,6 +937,7 @@ link:focus,
   margin-bottom: -170px;
   position: relative;
   z-index: 1;
+  margin: 200px;
 }
 .newsletter-block {
   padding-left: 50px;
@@ -1032,11 +1034,13 @@ link:focus,
 }
 
 #cometchangeleaders {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 #comettechinicalheads {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 #leader {
@@ -1054,4 +1058,34 @@ link:focus,
 #softskill {
   margin-left: 100px;
 }
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* CSS for table header (th) */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* CSS for table rows (tr) */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* CSS for table cells (td) */
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+
 /*# sourceMappingURL=style.css.map */
