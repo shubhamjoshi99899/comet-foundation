@@ -1073,4 +1073,27 @@ td {
   padding: 8px;
 }
 
+
+/* top-bar */
+
+.topbar {
+  background-image: url(/images/topbar.jfif);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1111;
+  padding: 8px 20px;
+   
+}
+
+/* /top-bar */
+
+
+
+
 /*# sourceMappingURL=style.css.map */
