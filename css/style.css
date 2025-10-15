@@ -1097,3 +1097,538 @@ td {
 
 
 /*# sourceMappingURL=style.css.map */
+
+
+.first-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top:50px;
+}
+
+  .red-heading{
+    text-align: center;
+    margin: 32px;
+  }
+  .red-heading > a{
+    color: red;
+    font-size:1.3em;
+  }
+  .gd-ul{
+
+    margin-left: 20px; list-style-type:disc;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #8585a4;
+  }
+
+  .rlinks {
+    margin:96px 0px 56px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  /* Unique GD Content Styles */
+
+
+  .gd-importance-wrapper {
+    max-width: 1140px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+
+  .gd-importance-box {
+    background:#f6f9c6a3;
+    padding: 50px 40px;
+    border-radius: 8px;
+    box-shadow: -1px 1px 20px 4px rgb(0 0 0 / 13%);
+    /* this shadow should be use in future  */
+  }
+
+
+  .gd-importance-title {
+    color: #ffbc3b;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #ffbc3b;
+  }
+
+  .gd-importance-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gd-importance-list li {
+    padding: 15px 0 15px 45px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    border-bottom:1px solid #f5d4367a;
+  }
+  
+
+  .gd-importance-list li:last-child {
+    border-bottom: none;
+  }
+
+  .gd-importance-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 28px;
+    height: 28px;
+    background: #ffbc3b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .gd-importance-box {
+      padding: 30px 20px;
+    }
+
+    .gd-importance-title {
+      font-size: 24px;
+    }
+
+    .gd-importance-list li {
+      font-size: 15px;
+    }
+  }
+  .gd-content-wrapper {
+    max-width: 1140px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+
+  .gd-section-box {
+    background: #f6f9c6a3;
+    padding: 50px 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  }
+
+  .gd-section-title {
+    color: #ffbc3b;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #ffbc3b;
+  }
+
+  .gd-content-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gd-content-list li {
+    padding: 15px 0 15px 45px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    border-bottom:1px solid #f5d4367a;
+  }
+
+  .gd-content-list li:last-child {
+    border-bottom: none;
+  }
+
+  .gd-content-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 28px;
+    height: 28px;
+    background: #ffbc3b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .gd-content-list li strong {
+    color: #1e3054;
+    font-weight: 600;
+  }
+
+  .gd-donts-list li:before {
+    content: "✗";
+    background: #dc3545;
+  }
+
+  .gd-two-col-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .gd-highlight-section {
+   background: #f6f9c6a3;
+    padding: 50px 40px;
+    margin: 80px auto;
+    border-radius: 8px;
+    box-shadow: 4px -2px 21px 19px rgba(0, 0, 0, 0.08);
+
+}
+  
+
+  .gd-highlight-section .gd-section-title {
+    color:#ffbc3b;
+    border-bottom-color: rgba(243, 193, 30, 0.3);
+  }
+
+  .gd-highlight-section p {
+   padding: 11px 0 11px 45px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    border-bottom: 1px solid #e6e951;
+  }
+
+  .gd-highlight-section p:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color:#ffbc3b;
+  }
+
+  .gd-criteria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .gd-criteria-card {
+    background:rgb(255 255 255 / 0%);
+    padding: 30px 25px;
+    border-radius: 8px;
+    border-left: 4px solid #ffbc3b;
+    transition: all 0.3s ease;
+  }
+
+  .gd-criteria-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-left-color: #667eea;
+  }
+
+  .gd-criteria-card h4 {
+    color: #1e3054;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .gd-criteria-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .gd-tips-wrapper {
+    background:linear-gradient(135deg, #f1f8ff 0%, #3ba6ff 100%);
+    padding: 50px 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+
+  .gd-tips-wrapper .gd-section-title {
+    color: #1e3054;
+    border-bottom-color: #1e3054;
+    text-align: center;
+  }
+
+  .gd-tips-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+  }
+
+  .gd-tips-list li {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    position: relative;
+    padding-left: 55px;
+  }
+
+  .gd-tips-list li:before {
+    content: "💡";
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    .gd-section-box {
+      padding: 30px 20px;
+    }
+
+    .gd-section-title {
+      font-size: 24px;
+    }
+
+    .gd-two-col-section {
+      grid-template-columns: 1fr;
+    }
+
+    .gd-criteria-grid,
+    .gd-tips-list {
+      grid-template-columns: 1fr;
+    }
+
+    .gd-content-list li {
+      font-size: 15px;
+    }
+  }
+  
+
+/* ========== Soft Skills Section ========== */
+.soft-skills-section {
+  padding: 70px 20px;
+  background: linear-gradient(180deg, #eaf3ff 0%, #f9fcff 100%);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.soft-skills-section .container {
+  max-width: 1100px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Headings --- */
+.soft-skills-section .main-title {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #1a73e8;
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.soft-skills-section .intro {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 45px;
+}
+
+/* --- Sub-sections --- */
+.soft-skills-section .sub-section {
+  margin-bottom: 50px;
+}
+
+.soft-skills-section .sub-section h2 {
+  font-size: 1.6rem;
+  color: #1a73e8;
+  border-left: 5px solid #1a73e8;
+  padding-left: 14px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* --- List Styling --- */
+.soft-skills-section .sub-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.soft-skills-section .sub-section ul li {
+  background: #eef4ff;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+  font-size: 0.98rem;
+  color: #444;
+  position: relative;
+}
+
+.soft-skills-section .sub-section ul li::before {
+  content: "•";
+  color: #1a73e8;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+}
+
+.soft-skills-section .sub-section ul li:hover {
+  background: #dbe9ff;
+  transform: translateX(6px);
+}
+
+/* --- Skills Grid --- */
+.soft-skills-section .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 25px;
+}
+
+.soft-skills-section .skill-card {
+  background: #f3f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.soft-skills-section .skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.soft-skills-section .skill-card h3 {
+  color: #0b57d0;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.soft-skills-section .skill-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .soft-skills-section .main-title {
+    font-size: 2rem;
+  }
+  .soft-skills-section .container {
+    padding: 25px;
+  }
+}
+
+  /* --- Effective Presentation Skills Section --- */
+.presentation-section {
+  background: linear-gradient(135deg, #f5f9ff, #e8f1ff);
+  font-family: "Poppins", sans-serif;
+  padding: 50px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+  color: #2c3e50;
+  animation: fadeIn 1s ease-in-out;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.presentation-section h1 {
+  text-align: center;
+  font-size: 2.3em;
+  color: #1a73e8;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.presentation-section p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.presentation-section h2 {
+  color: #2c3e50;
+  font-size: 1.5em;
+  margin-top: 25px;
+  border-left: 5px solid #1a73e8;
+  padding-left: 10px;
+}
+
+.presentation-section h3 {
+  color: #1a73e8;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.presentation-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.presentation-section ul li {
+  margin: 8px 0;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.6;
+  color: #333;
+}
+
+.presentation-section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.presentation-section .content-block {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.presentation-section .content-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
